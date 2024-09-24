@@ -15,7 +15,7 @@ import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
 function downloadResume() {
-  const resumeLink = "/public/resume.pdf"; // Replace with the actual path to your resume
+  const resumeLink = "public\resume.pdf"; // Replace with the actual path to your resume
   const a = document.createElement('a');
   a.href = resumeLink;
   a.download = 'Resume_Nikhil Sharma.pdf'; // Set the desired filename for the downloaded file
